@@ -555,9 +555,117 @@ body, html {
   opacity: 0.9;
 }
 
+/* line 2, ../sass/partials/_modules.scss */
+.agency-s1, .agency-s2, .agency-s3 {
+  background-position: center !important;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.bg-footer {
+  background-color: #212025 !important;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
+.tours-s1 {
+  background-position: center !important;
+}
+
+/* line 16, ../sass/partials/_modules.scss */
+header {
+  z-index: 100;
+}
+
+/* line 19, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 24, ../sass/partials/_modules.scss */
+  .agency-s1, .agency-s2, .agency-s3 {
+    background-color: #999 !important;
+    background-blend-mode: multiply;
+  }
+  /* line 25, ../sass/partials/_modules.scss */
+  .agency-s1 *, .agency-s2 *, .agency-s3 * {
+    color: #fff !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 32, ../sass/partials/_modules.scss */
+  .agency-s2 {
+    background-position: right !important;
+  }
+
+  /* line 37, ../sass/partials/_modules.scss */
+  .contact-s1, .contact-s2 {
+    background-color: #999 !important;
+    background-blend-mode: multiply;
+  }
+  /* line 38, ../sass/partials/_modules.scss */
+  .contact-s1 *, .contact-s2 * {
+    color: #fff !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 45, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-position: right !important;
+  }
+  /* line 48, ../sass/partials/_modules.scss */
+  .contact-s3 {
+    background-color: #999 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 54, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-color: #999 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 60, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #333;
+    border: 1px solid #666;
+    opacity: 0.8;
+    padding-right: 10px;
+  }
+
+  /* line 68, ../sass/partials/_modules.scss */
+  .tours-s1 {
+    background-color: #999 !important;
+    background-blend-mode: multiply;
+  }
+}
+/* line 31, ../sass/partials/_mixins.scss */
+.agency-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/agency/agency_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.agency-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/agency/agency_s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.agency-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/agency/agency_s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/coming.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -565,8 +673,35 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .error-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/error.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -574,9 +709,36 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index_s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.login-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact_s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.tours-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/tours/tours_s1.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;

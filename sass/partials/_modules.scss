@@ -1,0 +1,73 @@
+.agency{
+    &-s1,&-s2,&-s3{
+        background-position: center!important;
+    }
+}
+.bg{
+    &-footer{
+        background-color: $color__footer-bg!important;
+    }
+}
+.tours{
+    &-s1{
+        background-position: center!important;
+    }
+}
+header{
+    z-index: 100;
+}
+textarea{
+    resize: none;
+}
+@media all and (max-width: 767px){
+    .agency{
+        &-s1,&-s2,&-s3{
+            & *{
+                color: #fff !important;
+                text-shadow: $text-shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+        &-s2{
+            background-position: right!important;
+        }
+    }
+    .contact{
+        &-s1,&-s2{
+            & *{
+                color: #fff !important;
+                text-shadow: $text-shadow;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+        &-s1{
+            background-position: right!important;
+        }
+        &-s3{
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .index{
+        &-s1{
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .navbar{
+        &-nav{
+            background-color: #333;
+            border: 1px solid #666;
+            opacity: 0.8;
+            padding-right: 10px; 
+        }
+    }
+    .tours{
+        &-s1{
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+    }
+}
