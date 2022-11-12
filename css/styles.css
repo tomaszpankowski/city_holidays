@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Audiowide";
+  src: url("../fonts/Audiowide-Regular.ttf");
+}
 /* line 1, ../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -555,74 +559,86 @@ body, html {
   opacity: 0.9;
 }
 
-/* line 2, ../sass/partials/_modules.scss */
+@media all and (orientation: portrait) {
+  /* line 2, ../sass/partials/_modules.scss */
+  .contact-s1 {
+    background-position-x: right !important;
+  }
+}
+/* line 7, ../sass/partials/_modules.scss */
 .agency-s1, .agency-s2, .agency-s3 {
   background-position: center !important;
 }
 
-/* line 7, ../sass/partials/_modules.scss */
+/* line 12, ../sass/partials/_modules.scss */
 .bg-footer {
   background-color: #212025 !important;
 }
 
-/* line 12, ../sass/partials/_modules.scss */
+/* line 17, ../sass/partials/_modules.scss */
 .tours-s1 {
   background-position: center !important;
 }
 
-/* line 16, ../sass/partials/_modules.scss */
+/* line 21, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "Audiowide";
+  letter-spacing: 1px;
+}
+
+/* line 25, ../sass/partials/_modules.scss */
 header {
   z-index: 100;
 }
 
-/* line 19, ../sass/partials/_modules.scss */
+/* line 28, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 24, ../sass/partials/_modules.scss */
+  /* line 33, ../sass/partials/_modules.scss */
   .agency-s1, .agency-s2, .agency-s3 {
     background-color: #999 !important;
     background-blend-mode: multiply;
   }
-  /* line 25, ../sass/partials/_modules.scss */
+  /* line 34, ../sass/partials/_modules.scss */
   .agency-s1 *, .agency-s2 *, .agency-s3 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #333;
   }
-  /* line 32, ../sass/partials/_modules.scss */
+  /* line 41, ../sass/partials/_modules.scss */
   .agency-s2 {
     background-position: right !important;
   }
 
-  /* line 37, ../sass/partials/_modules.scss */
+  /* line 46, ../sass/partials/_modules.scss */
   .contact-s1, .contact-s2 {
     background-color: #999 !important;
     background-blend-mode: multiply;
   }
-  /* line 38, ../sass/partials/_modules.scss */
+  /* line 47, ../sass/partials/_modules.scss */
   .contact-s1 *, .contact-s2 * {
     color: #fff !important;
     text-shadow: 1px 1px 3px #333;
   }
-  /* line 45, ../sass/partials/_modules.scss */
+  /* line 54, ../sass/partials/_modules.scss */
   .contact-s1 {
     background-position: right !important;
   }
-  /* line 48, ../sass/partials/_modules.scss */
+  /* line 57, ../sass/partials/_modules.scss */
   .contact-s3 {
     background-color: #999 !important;
     background-blend-mode: multiply;
   }
 
-  /* line 54, ../sass/partials/_modules.scss */
+  /* line 63, ../sass/partials/_modules.scss */
   .index-s1 {
     background-color: #999 !important;
     background-blend-mode: multiply;
   }
 
-  /* line 60, ../sass/partials/_modules.scss */
+  /* line 69, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #333;
     border: 1px solid #666;
@@ -630,7 +646,7 @@ textarea {
     padding-right: 10px;
   }
 
-  /* line 68, ../sass/partials/_modules.scss */
+  /* line 77, ../sass/partials/_modules.scss */
   .tours-s1 {
     background-color: #999 !important;
     background-blend-mode: multiply;
